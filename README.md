@@ -77,8 +77,8 @@ git clone https://github.com/YOUR_USERNAME/FAN-Autoformer.git
 cd FAN-Autoformer
 pip install -r requirements.txt
 
-##🚀 Quick Start
-# Train FAN-Autoformer with AutoKernel (recommended)
+## 🚀 Quick Start
+# Train **FAN-Autoformer** with AutoKernel (recommended)
 python train.py --model fan_autoformer_autokernel \
                 --horizon 7 \
                 --lookback 365 \
