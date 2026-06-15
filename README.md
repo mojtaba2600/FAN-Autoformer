@@ -88,10 +88,6 @@ python train.py --model fan_autoformer_autokernel \
 bash scripts/run_all_experiments.sh
 
 
-***
-
-
-```markdown
 ## 📁 Repository Structure
 
 
