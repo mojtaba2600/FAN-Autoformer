@@ -69,7 +69,7 @@ Gradient-weighted activation analysis reveals that FAN-Autoformer autonomously i
 
 These findings provide strong evidence of **genuine physical pattern internalization** beyond spurious statistical correlation.
 
-بخش ششم: Installation & Usage
+
 ## ⚙️ Installation
 
 ```bash
@@ -90,7 +90,6 @@ bash scripts/run_all_experiments.sh
 
 ***
 
-### بخش هفتم: Repository Structure
 
 ```markdown
 ## 📁 Repository Structure
@@ -115,8 +114,7 @@ FAN-Autoformer/
 ├── requirements.txt
 └── README.md
 
- 
-بخش هشتم: Citation
+
 ## 📄 Citation
 
 If you use this code or dataset in your research, please cite:
@@ -132,7 +130,7 @@ If you use this code or dataset in your research, please cite:
 }
 
 📬 Contact
-For questions or collaboration inquiries, open a GitHub Issue or contact: [your.email@institution.de]
+For questions or collaboration inquiries, open a GitHub Issue or contact: mojtaba.fathollahi4346@iau.ir
 📜 License
 This project is licensed under the MIT License — see LICENSE for details
 
