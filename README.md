@@ -70,57 +70,5 @@ Gradient-weighted activation analysis reveals that FAN-Autoformer autonomously i
 These findings provide strong evidence of **genuine physical pattern internalization** beyond spurious statistical correlation.
 
 
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/YOUR_USERNAME/FAN-Autoformer.git
-cd FAN-Autoformer
-pip install -r requirements.txt
-
-## 🚀 Quick Start
-# Train **FAN-Autoformer** with AutoKernel (recommended)
-python train.py --model fan_autoformer_autokernel \
-                --horizon 7 \
-                --lookback 365 \
-                --seed 42
-
-# Run all horizons with 5 seeds (full reproducibility)
-bash scripts/run_all_experiments.sh
-
-```markdown
-## 📁 Repository Structure
-
-
-FAN-Autoformer/
-├── models/
-│ ├── fan_autoformer.py # Main model
-│ ├── fan_layer.py # Frequency-Adaptive Normalization
-│ ├── autokernel.py  # Dynamic Progressive Decomposition
-│ └── autocorrelation.py  # Auto-Correlation mechanism
-├── data/
-│ └── ilam_airport_tmin.csv # Pre-processed Ilam Airport dataset
-├── experiments/
-│ ├── train.py
-│ └── evaluate.py
-├── xai/
-│ └── gradcam_attribution.py # GradCAM-based explainability
-├── figures/ # All paper figures
-├── scripts/
-│ └── run_all_experiments.sh
-├── requirements.txt
-└── README.md
-
-
-## 📄 Citation
-
-If you use this code or dataset in your research, please cite:
-
-```bibtex
-###Under review
-
-📬 Contact
-For questions or collaboration inquiries, open a GitHub Issue or contact: mojtaba.fathollahi4346@iau.ir
-📜 License
-This project is licensed under the MIT License — see LICENSE for details
 
 
