@@ -92,6 +92,7 @@ bash scripts/run_all_experiments.sh
 ```
 
 ## 📁 Repository Structure
+```markdown
 FAN-Autoformer/
 ├── models/
 │ ├── fan_autoformer.py # Main model
@@ -110,6 +111,7 @@ FAN-Autoformer/
 │ └── run_all_experiments.sh
 ├── requirements.txt
 └── README.md
+'''
 
 ## 📄 Citation
 
