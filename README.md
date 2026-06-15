@@ -73,7 +73,7 @@ These findings provide strong evidence of **genuine physical pattern internaliza
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/FAN-Autoformer.git
+git clone https://github.com/mojtaba2600/FAN-Autoformer.git
 cd FAN-Autoformer
 pip install -r requirements.txt
 ```
@@ -111,15 +111,14 @@ FAN-Autoformer/
 │ └── run_all_experiments.sh
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 📄 Citation
 
 If you use this code or dataset in your research, please cite:
 
 ```bibtex
-@article{Under Review
-}
+Under Review
 ```
 
 ## 📬 Contact
