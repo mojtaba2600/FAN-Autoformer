@@ -36,7 +36,7 @@ Evaluated on daily minimum temperature (T_min) at Ilam Shohada Airport (ICAO: OI
 | PatchTST | 1.7407 ± 0.013 | 2.0612 ± 0.017 | 0.9233 ± 0.001 | 0.8935 ± 0.002 |
 | TimeXer | 1.8300 ± 0.034 | 2.0615 ± 0.020 | 0.9174 ± 0.002 | 0.8918 ± 0.001 |
 | iTransformer | 1.8683 ± 0.030 | 2.1350 ± 0.028 | 0.9148 ± 0.002 | 0.8844 ± 0.003 |
-| Vanilla Autoformer | 2.2142 ± 0.159 | 2.8774 ± 0.471 | 0.8785 ± 0.019 | 0.7990 ± 0.059 |
+| Autoformer | 2.2142 ± 0.159 | 2.8774 ± 0.471 | 0.8785 ± 0.019 | 0.7990 ± 0.059 |
 
 ### Medium/Long-term Horizons (H = 7, 30 days)
 
@@ -45,7 +45,7 @@ Evaluated on daily minimum temperature (T_min) at Ilam Shohada Airport (ICAO: OI
 | **FAN-Autoformer (ours)** | 2.1733 ± 0.016 | 2.3171 ± 0.057 | **0.8827 ± 0.002** | 0.8682 ± 0.006 |
 | Informer | **2.0457 ± 0.028** | **2.2247 ± 0.074** | **0.8926 ± 0.003** | **0.8723 ± 0.007** |
 | TimeXer | 2.1619 ± 0.020 | **2.1987 ± 0.042** | 0.8783 ± 0.002 | **0.8762 ± 0.004** |
-| Vanilla Autoformer | 2.6106 ± 0.367 | 2.6737 ± 0.268 | 0.8293 ± 0.049 | 0.8303 ± 0.031 |
+| Autoformer | 2.6106 ± 0.367 | 2.6737 ± 0.268 | 0.8293 ± 0.049 | 0.8303 ± 0.031 |
 
 > ✅ **FAN-Autoformer achieves the lowest inter-seed variance across all horizons**, demonstrating superior optimization stability over all baselines — including PatchTST, iTransformer, and Vanilla Autoformer.
 ## 🏗️ Architecture
