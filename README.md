@@ -73,21 +73,11 @@ These findings provide strong evidence of **genuine physical pattern internaliza
 ```markdown
 FAN-Autoformer/
 ├── models/
-│ ├── fan_autoformer.py # Main model
-│ ├── fan_layer.py # Frequency-Adaptive Normalization
-│ ├── autokernel.py  # Dynamic Progressive Decomposition
-│ └── autocorrelation.py  # Auto-Correlation mechanism
+│ ├── fan_autoformer.py #with Xai
+│ ├── requirements.txt
 ├── data/
-│ └── ilam_airport_tmin.csv # Pre-processed Ilam Airport dataset
-├── experiments/
-│ ├── train.py
-│ └── evaluate.py
-├── xai/
-│ └── gradcam_attribution.py # GradCAM-based explainability
+│ └── ilam_weather.csv # Pre-processed Ilam Airport dataset
 ├── figures/ # All paper figures
-├── scripts/
-│ └── run_all_experiments.sh
-├── requirements.txt
 └── README.md
 ```
 
