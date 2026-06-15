@@ -69,28 +69,6 @@ Gradient-weighted activation analysis reveals that FAN-Autoformer autonomously i
 
 These findings provide strong evidence of **genuine physical pattern internalization** beyond spurious statistical correlation.
 
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/mojtaba2600/FAN-Autoformer.git
-cd FAN-Autoformer
-pip install -r requirements.txt
-```
-
-## 🚀 Quick Start
-
-```bash
-# Train FAN-Autoformer with AutoKernel (recommended)
-python train.py --model fan_autoformer_autokernel \
-                --horizon 7 \
-                --lookback 365 \
-                --seed 42
-
-# Run all horizons with 5 seeds (full reproducibility)
-bash scripts/run_all_experiments.sh
-```
-
 ## 📁 Repository Structure
 ```markdown
 FAN-Autoformer/
