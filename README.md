@@ -120,14 +120,7 @@ FAN-Autoformer/
 If you use this code or dataset in your research, please cite:
 
 ```bibtex
-@article{fathollahi2026fan,
-  title     = {FAN-Autoformer: A Frequency-Adaptive Framework for Non-Stationary 
-               Time Series Forecasting with XAI},
-  author    = {Fathollahi, Mojtaba and Eslahi, [Co-author]},
-  journal   = {[Journal Name]},
-  year      = {2026},
-  note      = {Under Review}
-}
+###Under review
 
 📬 Contact
 For questions or collaboration inquiries, open a GitHub Issue or contact: mojtaba.fathollahi4346@iau.ir
