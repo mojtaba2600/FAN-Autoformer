@@ -69,10 +69,71 @@ Gradient-weighted activation analysis reveals that FAN-Autoformer autonomously i
 
 These findings provide strong evidence of **genuine physical pattern internalization** beyond spurious statistical correlation.
 
+بخش ششم: Installation & Usage
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/mojtaba2600/FAN-Autoformer.git
+git clone https://github.com/YOUR_USERNAME/FAN-Autoformer.git
 cd FAN-Autoformer
 pip install -r requirements.txt
+
+🚀 Quick Start
+# Train FAN-Autoformer with AutoKernel (recommended)
+python train.py --model fan_autoformer_autokernel \
+                --horizon 7 \
+                --lookback 365 \
+                --seed 42
+
+# Run all horizons with 5 seeds (full reproducibility)
+bash scripts/run_all_experiments.sh
+
+
+***
+
+### بخش هفتم: Repository Structure
+
+```markdown
+## 📁 Repository Structure
+
+
+FAN-Autoformer/
+├── models/
+│ ├── fan_autoformer.py # Main model
+│ ├── fan_layer.py # Frequency-Adaptive Normalization
+│ ├── autokernel.py  # Dynamic Progressive Decomposition
+│ └── autocorrelation.py  # Auto-Correlation mechanism
+├── data/
+│ └── ilam_airport_tmin.csv # Pre-processed Ilam Airport dataset
+├── experiments/
+│ ├── train.py
+│ └── evaluate.py
+├── xai/
+│ └── gradcam_attribution.py # GradCAM-based explainability
+├── figures/ # All paper figures
+├── scripts/
+│ └── run_all_experiments.sh
+├── requirements.txt
+└── README.md
+
+ 
+بخش هشتم: Citation
+## 📄 Citation
+
+If you use this code or dataset in your research, please cite:
+
+```bibtex
+@article{fathollahi2026fan,
+  title     = {FAN-Autoformer: A Frequency-Adaptive Framework for Non-Stationary 
+               Time Series Forecasting with XAI},
+  author    = {Fathollahi, Mojtaba and Eslahi, [Co-author]},
+  journal   = {[Journal Name]},
+  year      = {2026},
+  note      = {Under Review}
+}
+
+📬 Contact
+For questions or collaboration inquiries, open a GitHub Issue or contact: [your.email@institution.de]
+📜 License
+This project is licensed under the MIT License — see LICENSE for details
+
 
