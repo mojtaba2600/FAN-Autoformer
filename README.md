@@ -73,7 +73,7 @@ These findings provide strong evidence of **genuine physical pattern internaliza
 ```markdown
 FAN-Autoformer/
 ├── models/
-│ ├── fan_autoformer.py #with Xai
+│ ├── FAN-Autoformer.ipynb #with Xai
 │ ├── requirements.txt
 ├── data/
 │ └── ilam_weather.csv # Pre-processed Ilam Airport dataset
