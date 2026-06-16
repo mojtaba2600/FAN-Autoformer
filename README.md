@@ -5,7 +5,7 @@ FAN-Autoformer: Frequency-Adaptive Normalization + AutoKernel Decomposition for 
 # 🌡️ FAN-Autoformer: A Frequency-Adaptive Framework for Non-Stationary Time Series Forecasting
 
 > **Official PyTorch implementation** of the paper:  
-> *"FAN-Autoformer: A Frequency-Adaptive Framework for Non-Stationary Time Series Forecasting with XAI — A Case Study of Ilam Airport Meteorology"*
+> *"FAN-Autoformer: A Frequency-Adaptive Framework for Non-Stationary Time Series Forecasting with XAI"*
 
 [![Paper](https://img.shields.io/badge/Paper-Under%20Review-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green)]()
