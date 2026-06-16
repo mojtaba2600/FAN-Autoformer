@@ -78,6 +78,7 @@ FAN-Autoformer/
 ├── data/
 │ └── ilam_weather.csv # Pre-processed Ilam Airport dataset
 ├── figures/ # All paper figures
+│ ├──result/ # result for many models
 └── README.md
 ```
 
