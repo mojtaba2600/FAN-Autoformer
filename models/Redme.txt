@@ -1,0 +1,1 @@
+I have two files. The file `FAN-Autoformer.ipynb` is for the main and proposed model. The other file, `FAN-Autoformer-best-epoch.ipynb`, is used to record the best results in each iteration. The purpose of this second notebook is to ensure that the output volume does not become too large or unconventional.
