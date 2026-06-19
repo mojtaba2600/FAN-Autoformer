@@ -72,8 +72,10 @@ These findings provide strong evidence of **genuine physical pattern internaliza
 ## 📁 Repository Structure
 ```markdown
 FAN-Autoformer/
+├── XAI-interpretability_outputs # results from FAN-Autoformer-best-epoch.ipynb(4 types snapshot from encoder-decoder layers-html)
 ├── models/
-│ ├── FAN-Autoformer.ipynb #with Xai
+│ ├── FAN-Autoformer.ipynb # with Xai full
+│ ├── FAN-Autoformer-best-epoch.ipynb # with best result in every epoch
 │ ├── requirements.txt
 ├── data/
 │ └── ilam_weather.csv # Pre-processed Ilam Airport dataset
