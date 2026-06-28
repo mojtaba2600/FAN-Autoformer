@@ -186,7 +186,7 @@ If you use this code or dataset in your research, please cite (BibTeX will be up
              Time Series Forecasting with XAI},
   author  = {Fatollahi, Mojtaba and Bahadori, Sondos and Nooraei Abadeh, Maryam},
   journal = {Under Review},
-  year    = {2024}
+  year    = {2026}
 }
 ```
 
